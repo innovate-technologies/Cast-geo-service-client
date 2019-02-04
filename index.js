@@ -16,7 +16,7 @@ var client = null;
 
 module.exports.get = (ip) => new Promise((resolve, reject) => {
     if (!client) {
-        client = new geo_proto.Geo(process.env.GEOSERVICE_URL ? rocess.env.GEOSERVICE_URL : "localhost:50051", grpc.credentials.createInsecure());
+        client = new geo_proto.Geo(process.env.GEOSERVICE_URL ? process.env.GEOSERVICE_URL : "localhost:50051", grpc.credentials.createInsecure());
     }
     client.getGeoInfo({ ip }, function(err, response) {
         if (err) {
