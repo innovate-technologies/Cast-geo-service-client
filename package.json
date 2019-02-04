@@ -1,6 +1,6 @@
 {
   "name": "cast-geo-service-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cast module to use geo-service",
   "main": "index.js",
   "scripts": {
