@@ -1,0 +1,27 @@
+{
+  "name": "cast-geo-service-client",
+  "version": "0.1.0",
+  "description": "Cast module to use geo-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovate-technologies/Cast-geo-service-client.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/innovate-technologies/Cast-geo-service-client/issues"
+  },
+  "homepage": "https://github.com/innovate-technologies/Cast-geo-service-client#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.4.0",
+    "google-protobuf": "^3.7.0-rc.2",
+    "grpc": "^1.18.0"
+  },
+  "devDependencies": {
+    "grpc-tools": "^1.6.6"
+  }
+}
